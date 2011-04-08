@@ -1,0 +1,36 @@
+html, body { height: 100%; }
+
+a { }
+
+a:hover { }
+
+p { margin: 1em 0; }
+
+body {
+	font-family: helvetica, Arial, sans-serif; /* FIXME font design is "FuturaMd" */
+	color: black;
+	font-size: 12px;
+	margin: auto 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #71a143;
+}
+
+h1 { 
+	font-size: 22px;
+	text-transform: capitalize;
+	padding-bottom: 14px;
+}
+
+h2 {
+	text-transform: capitalize;
+	
+}
+
+h3 {
+
+	text-indent: 30px;
+	color: #71a143;
+	font-size: 17px;
+}

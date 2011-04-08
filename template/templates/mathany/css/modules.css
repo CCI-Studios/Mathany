@@ -1,0 +1,35 @@
+.moduletable { }
+
+
+
+.moduletable_menu {
+
+}
+
+.moduletable_menu ul {
+	font-size: 14px;
+	float: right;
+	padding: 20px 0;
+}
+
+.moduletable_menu li {
+	display: inline;
+	padding: 0 10px;
+	text-align: center;
+}
+
+.moduletable_menu li a {
+
+	color: black;
+	text-decoration: none;
+}
+
+.moduletable_menu li a:hover {
+	color: #71a143;
+}
+
+#bottom .moduletable {
+	float: left;
+	width: 320px;
+	position: relative;
+}

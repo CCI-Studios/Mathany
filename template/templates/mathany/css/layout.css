@@ -1,0 +1,62 @@
+#top > div, #masthead > div, #body > div, #content > div, 
+#bottom > div, #footer > div { margin: 0 auto; width: 960px;}
+
+#top {
+	background-color: white;
+	border-top: #71a143 2px solid;
+	border-bottom: #71a143 2px solid;
+	color: black;
+	margin: 2px 0;
+	padding: 24px 0;	
+}
+
+#top > div {}
+
+
+#masthead {
+	background: url(../images/mainbg.png) repeat-x;
+	margin: 0 auto;	
+	color: white;
+		height: 400px; /* FIXME */
+}
+
+#masthead > div {
+	padding: 20px 0;
+	text-align: center;
+}
+
+#body {
+	background-color: white;
+	border-top: #71a143 2px solid;
+	border-bottom: #71a143 2px solid;
+	margin: 2px 0;
+}
+
+#body > div { }
+
+#bottom { 
+	font-size: 14px;
+	margin: 35px 12px;
+}
+
+#bottom > div {
+	display: inline;
+	float: left;
+	line-height: 1.5;
+	width: 300px;
+	padding: 0 0 20px;
+}
+
+#footer { 
+	background: url(../images/footerbg.png) repeat-x;	
+	margin: 0 auto;
+	padding: 10px 0 75px;
+}
+
+#footer > div { font-size: 9px; color: white;}
+
+#footer a { color: white; text-decoration: none;}
+
+#footer a:hover { color: black;}
+
+#footer span { float: right; margin: -10px 0 0;}
