@@ -1,4 +1,13 @@
-html, body { height: 100%; }
+@font-face {
+    font-family: 'FuturaMd';
+    src: url('../fonts/FtraBd.tff');
+    src: local('nope'),
+         url('../fonts/FtraBd.tff') format('truetype')
+}
+
+html, body {
+	background: #558527;
+}
 
 a { }
 
@@ -7,30 +16,24 @@ a:hover { }
 p { margin: 1em 0; }
 
 body {
-	font-family: helvetica, Arial, sans-serif; /* FIXME font design is "FuturaMd" */
 	color: black;
+	font-family: "FuturaMd", helvetica, Arial, sans-serif;
 	font-size: 12px;
 	margin: auto 0;
 }
 
-h1, h2, h3, h4, h5, h6 { 
-	color: #71a143;
-}
+h1, h2, h3, h4, h5, h6 { color: #71a143; }
 
 h1 { 
 	font-size: 22px;
-	text-transform: capitalize;
 	padding-bottom: 14px;
+	text-transform: capitalize;
 }
 
-h2 {
-	text-transform: capitalize;
-	
-}
+h2 { text-transform: capitalize; }
 
 h3 {
-
-	text-indent: 30px;
 	color: #71a143;
 	font-size: 17px;
+	text-indent: 40px;
 }

@@ -3,22 +3,27 @@
 
 #top {
 	background-color: white;
+	color: black;
+	padding: 2px 0;	
+} 
+
+#top > div { 
 	border-top: #71a143 2px solid;
 	border-bottom: #71a143 2px solid;
-	color: black;
-	margin: 2px 0;
-	padding: 24px 0;	
+	width: 100%;
 }
-
-#top > div {}
-
+#top > div > div {
+	padding: 24px 0;
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+}
 
 #masthead {
-	background: url(../images/mainbg.png) repeat-x;
-	margin: 0 auto;	
+	background: url(../images/masthead_bg.png) repeat-x;
 	color: white;
-		height: 400px; /* FIXME */
 }
+body.home #masthead { background: url(../images/masthead_bg_home.png) repeat-x;}
 
 #masthead > div {
 	padding: 20px 0;
@@ -27,12 +32,28 @@
 
 #body {
 	background-color: white;
-	border-top: #71a143 2px solid;
-	border-bottom: #71a143 2px solid;
-	margin: 2px 0;
+	padding: 2px 0;
 }
 
-#body > div { }
+#body > div {
+	border-bottom: #71a143 2px solid;
+	border-top: #71a143 2px solid;
+	padding: 20px 0;
+	width: 100%;
+}
+#body > div > div {
+	margin: 0 auto;
+	width: 960px;
+}
+
+#sidebar {
+	border-right: #71a143 1px solid;
+	margin: 24px 16px;
+	padding: 0 20px 0 0;
+	width: 260px;
+}
+
+#sidebar a:hover { background: url(../images/innermenuhover.png) no-repeat;}
 
 #bottom { 
 	font-size: 14px;
@@ -43,8 +64,8 @@
 	display: inline;
 	float: left;
 	line-height: 1.5;
-	width: 300px;
 	padding: 0 0 20px;
+	width: 300px;
 }
 
 #footer { 
@@ -58,5 +79,3 @@
 #footer a { color: white; text-decoration: none;}
 
 #footer a:hover { color: black;}
-
-#footer span { float: right; margin: -10px 0 0;}

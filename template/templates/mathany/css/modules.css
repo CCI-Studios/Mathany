@@ -1,35 +1,142 @@
 .moduletable { }
 
-
-
-.moduletable_menu {
-
+/* menu (horizontal) */
+.moduletable_hmenu {
+	position: absolute;
+	right: 0;
+	top: -4px;
 }
 
-.moduletable_menu ul {
+.moduletable_hmenu ul {
 	font-size: 14px;
-	float: right;
-	padding: 20px 0;
+	list-style: none;
 }
 
-.moduletable_menu li {
-	display: inline;
-	padding: 0 10px;
+.moduletable_hmenu li {
+	float: left;
+	margin: 0 15px;
+	position: relative;
 	text-align: center;
+	z-index: 3;
 }
 
-.moduletable_menu li a {
-
+.moduletable_hmenu li > a,
+.moduletable_hmenu li > span {
 	color: black;
+	display: block;
 	text-decoration: none;
 }
 
-.moduletable_menu li a:hover {
-	color: #71a143;
+.moduletable_hmenu li > a > span, 
+.moduletable_hmenu li > span > span {
+	display: block;
+	padding-top: 50px;
+}
+
+/* hover */
+.moduletable_hmenu li:hover {
+	margin: 0 5px;
+}
+.moduletable_hmenu li:hover > a,
+.moduletable_hmenu li:hover > span {
+	background: url(../images/mainmenuhover.png) 0 0  no-repeat;
+	padding-left: 10px;
+}
+.moduletable_hmenu li:hover > a > span,
+.moduletable_hmenu li:hover > span > span {
+	background: url(../images/mainmenuhover.png) right -93px no-repeat;
+	color: white;
+	padding-right: 10px;
+	padding-bottom: 27px;
+}
+
+.moduletable_hmenu li.parent:hover > a, 
+.moduletable_hmenu li.parent:hover > span {
+	background: url(../images/menu_hover_bg.png) right 0 no-repeat;
+	padding: 0 10px 0 0;
+	margin-left: 5px;
+}
+	
+.moduletable_hmenu li.parent:hover > a > span, 
+.moduletable_hmenu li.parent:hover > span > span {
+	background: url(../images/menu_hover_bg.png) 0 0 no-repeat;
+	padding: 50px 0 13px 10px; /* fixme 5+10 */
+	margin-left: -5px;
+}
+
+
+/* submenu */
+.moduletable_hmenu .submenu {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 69px;
+	white-space: nowrap;
+	z-index: -1;
+}
+.moduletable_hmenu li:hover .submenu { display: block; }
+.moduletable_hmenu li.item5 .submenu { /* FIXME Jon needs to make .last work */
+	left: auto;
+	right: 0;
+}
+
+.moduletable_hmenu .submenu {
+	padding-left: 20px; /* fixme */
+}
+.moduletable_hmenu .content {
+	background: url(../images/menu_dropdown_bg.png) right top no-repeat;
+	padding-right: 20px; /* fixme */
+	position: relative;
+}
+.moduletable_hmenu .top {
+	background: url(../images/menu_dropdown_bg.png) left top no-repeat;
+	height: 100%;
+	left: 0;
+	margin-left: -20px; /* fixme */
+	position: absolute;
+	top: 0;
+	width: 20px; /* fixme */
+}
+.moduletable_hmenu .bottom {
+	background: url(../images/menu_dropdown_bg.png) right bottom no-repeat;
+	height: 20px; /* fixme */
+	position: relative;
+	width: 100%;
+}
+.moduletable_hmenu .bottom div {
+	background: url(../images/menu_dropdown_bg.png) left bottom no-repeat;
+	height: 20px; /* fixme */
+	margin-left: -20px; /* fixme */
+	position: relative;
+	width: 20px; /* fixme */
+}
+
+.moduletable_hmenu ul ul {
+	display: none;
+}
+.moduletable_hmenu ul li:hover ul {
+	display: block;
+}
+
+.moduletable_hmenu .submenu li {
+	float: none;
+	text-align: left;
+}
+
+/* end hmenu */
+
+/* menu (vertical) */
+.moduletable_vmenu {}
+
+/* end vmenu */
+
+
+.moduletable h3 {
+	background: url(../images/circlecheckmark.png) no-repeat;
+	line-height: 26px;
 }
 
 #bottom .moduletable {
-	float: left;
+	border-left: url(../images/moduleseparator.png) no-repeat;
 	width: 320px;
-	position: relative;
 }
