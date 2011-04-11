@@ -1,8 +1,24 @@
 @font-face {
     font-family: 'FuturaMd';
-    src: url('../fonts/FtraBd.tff');
+    src: url('../fonts/FtraBk__.eot');
     src: local('nope'),
-         url('../fonts/FtraBd.tff') format('truetype')
+         url('../fonts/FtraBk__.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FuturaMd';
+    src: url('../fonts/FtraBd__.eot');
+    src: local('nope'),
+         url('../fonts/FtraBd__.ttf') format('truetype'); 
+font-weight: bold;
+}
+
+@font-face {
+    font-family: 'FuturaMd';
+    src: url('../fonts/FtraBkl_.eot');
+    src: local('nope'),
+         url('../fonts/FtraBkl_.ttf') format('truetype');
+font-style: italic;
 }
 
 html, body {
@@ -27,7 +43,7 @@ h1, h2, h3, h4, h5, h6 { color: #71a143; }
 h1 { 
 	font-size: 22px;
 	padding-bottom: 14px;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 h2 { text-transform: capitalize; }
@@ -36,4 +52,11 @@ h3 {
 	color: #71a143;
 	font-size: 17px;
 	text-indent: 40px;
+}
+
+h4 {
+	color: #71a143;
+	font-size: 17px;
+	padding: 24px 0 15px 20px;
+	
 }

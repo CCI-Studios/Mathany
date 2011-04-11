@@ -1,5 +1,5 @@
 #top > div, #masthead > div, #body > div, #content > div, 
-#bottom > div, #footer > div { margin: 0 auto; width: 960px;}
+#bottom > div, #footer > div { margin: 0 auto; width: 944px;}
 
 #top {
 	background-color: white;
@@ -38,12 +38,10 @@ body.home #masthead { background: url(../images/masthead_bg_home.png) repeat-x;}
 #body > div {
 	border-bottom: #71a143 2px solid;
 	border-top: #71a143 2px solid;
-	padding: 20px 0;
 	width: 100%;
 }
 #body > div > div {
 	margin: 0 auto;
-	width: 960px;
 }
 
 #sidebar {
@@ -57,15 +55,12 @@ body.home #masthead { background: url(../images/masthead_bg_home.png) repeat-x;}
 
 #bottom { 
 	font-size: 14px;
-	margin: 35px 12px;
+	margin: 32px 0;
 }
 
 #bottom > div {
-	display: inline;
-	float: left;
-	line-height: 1.5;
-	padding: 0 0 20px;
-	width: 300px;
+	background: url(../images/bottom_bg.png) center repeat-y;
+	line-height: 1.5em;
 }
 
 #footer { 

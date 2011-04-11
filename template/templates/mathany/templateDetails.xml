@@ -25,6 +25,7 @@
 		<position>top</position>
 		<position>logo</position>
 		<position>mid</position>
+		<position>sidebar</position>
 		<position>bottom</position>
     </positions>
  

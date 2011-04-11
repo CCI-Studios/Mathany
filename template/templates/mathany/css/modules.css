@@ -134,9 +134,33 @@
 .moduletable h3 {
 	background: url(../images/circlecheckmark.png) no-repeat;
 	line-height: 26px;
+	padding-top: 5px;
 }
 
 #bottom .moduletable {
-	border-left: url(../images/moduleseparator.png) no-repeat;
-	width: 320px;
+	float: left;
+	padding: 0 0 0 34px;
+	width: 292px;
 }
+
+#bottom .moduletable:first-child {
+	padding: 0;
+	
+}
+
+#bottom .moduletable { }
+
+#bottom .moduletable ul { 
+	list-style-type: none;
+	text-indent: 26px;
+}
+
+#bottom .moduletable li { 
+	background: url(../images/checkmark.png) no-repeat;
+}
+
+
+
+
+
+

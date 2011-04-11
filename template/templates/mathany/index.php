@@ -29,13 +29,14 @@ if ($menu)
 	<div id="body"><div><div>
 		<?php if ($menu !== 'home'): ?>
 		<div id="content"><div>
-			<div id="sidebar">
 			<jdoc:include type="component" />
+			<div id="sidebar"></div>
 		</div></div></div>
 		<?php endif; ?>
 		
 		<div id="bottom"><div>
 			<jdoc:include type="modules" name="bottom" style="xhtml" />
+			<div class="clear"></div>
 		</div></div>
 		<div class="clear"></div>
 	</div></div></div>
