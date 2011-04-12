@@ -133,9 +133,12 @@
 
 /* sidebar menu */
 #sidebar .moduletable { }
-#sidebar .moduletable ul { list-style-type: none; }
-#sidebar .moduletable li { }
-#sidebar .moduletable li:hover { background: url(../images/innermenuhover.png) no-repeat; }
+#sidebar .moduletable ul { list-style: none; }
+#sidebar .moduletable li, #sidebar .moduletable li > a, #sidebar .moduletable li > span { text-decoration: none;}
+#sidebar .moduletable li:hover > a {  }
+#sidebar .moduletable li:hover > span { background: url(../images/innermenuhover.png) left 20px no-repeat; }
+#sidebar .moduletable li:hover > span > span { background: url(../images/innermenuhover.png) right -20px no-repeat; }
+
 /* end sidebar menu */
 
 
