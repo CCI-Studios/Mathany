@@ -6,12 +6,10 @@
 	right: 0;
 	top: -4px;
 }
-
 .moduletable_hmenu ul {
 	font-size: 14px;
 	list-style: none;
 }
-
 .moduletable_hmenu li {
 	float: left;
 	margin: 0 15px;
@@ -19,20 +17,17 @@
 	text-align: center;
 	z-index: 3;
 }
-
 .moduletable_hmenu li > a,
 .moduletable_hmenu li > span {
 	color: black;
 	display: block;
 	text-decoration: none;
 }
-
 .moduletable_hmenu li > a > span, 
 .moduletable_hmenu li > span > span {
 	display: block;
 	padding-top: 50px;
 }
-
 /* hover */
 .moduletable_hmenu li:hover {
 	margin: 0 5px;
@@ -49,22 +44,18 @@
 	padding-right: 10px;
 	padding-bottom: 27px;
 }
-
 .moduletable_hmenu li.parent:hover > a, 
 .moduletable_hmenu li.parent:hover > span {
 	background: url(../images/menu_hover_bg.png) right 0 no-repeat;
 	padding: 0 10px 0 0;
 	margin-left: 5px;
-}
-	
+}	
 .moduletable_hmenu li.parent:hover > a > span, 
 .moduletable_hmenu li.parent:hover > span > span {
 	background: url(../images/menu_hover_bg.png) 0 0 no-repeat;
 	padding: 50px 0 13px 10px; /* fixme 5+10 */
 	margin-left: -5px;
 }
-
-
 /* submenu */
 .moduletable_hmenu .submenu {
 	display: none;
@@ -79,7 +70,6 @@
 	left: auto;
 	right: 0;
 }
-
 .moduletable_hmenu .submenu {
 	padding-left: 20px; /* fixme */
 }
@@ -110,26 +100,22 @@
 	position: relative;
 	width: 20px; /* fixme */
 }
-
 .moduletable_hmenu ul ul {
 	display: none;
 }
 .moduletable_hmenu ul li:hover ul {
 	display: block;
 }
-
 .moduletable_hmenu .submenu li {
 	float: none;
 	text-align: left;
 }
-
 /* end hmenu */
 
 /* menu (vertical) */
-.moduletable_vmenu {}
+.moduletable_vmenu { }
 
 /* end vmenu */
-
 
 .moduletable h3 {
 	background: url(../images/circlecheckmark.png) no-repeat;
@@ -137,30 +123,20 @@
 	padding-top: 5px;
 }
 
-#bottom .moduletable {
-	float: left;
-	padding: 0 0 0 34px;
-	width: 292px;
-}
-
-#bottom .moduletable:first-child {
-	padding: 0;
-	
-}
-
+/* bottom modules */
+#bottom .moduletable { float: left; padding: 0 0 0 34px; width: 292px; }
+#bottom .moduletable:first-child { padding: 0; }
 #bottom .moduletable { }
+#bottom .moduletable ul { list-style-type: none; text-indent: 26px;	}
+#bottom .moduletable li { background: url(../images/checkmark.png) no-repeat; }
+/* end bottom modules */
 
-#bottom .moduletable ul { 
-	list-style-type: none;
-	text-indent: 26px;
-}
-
-#bottom .moduletable li { 
-	background: url(../images/checkmark.png) no-repeat;
-}
-
-
-
+/* sidebar menu */
+#sidebar .moduletable { }
+#sidebar .moduletable ul { list-style-type: none; }
+#sidebar .moduletable li { }
+#sidebar .moduletable li:hover { background: url(../images/innermenuhover.png) no-repeat; }
+/* end sidebar menu */
 
 
 

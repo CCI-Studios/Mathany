@@ -22,22 +22,33 @@ if ($menu)
 			<jdoc:include type="modules" name="top" style="xhtml" />
 	</div></div></div>
 	
-	<div id="masthead"><div>
+	<div id="masthead"><div>	
 		<jdoc:include type="modules" name="mid" style="xhtml" />
 	</div></div>
 	
 	<div id="body"><div><div>
 		<?php if ($menu !== 'home'): ?>
-		<div id="content"><div>
-			<jdoc:include type="component" />
-			<div id="sidebar"></div>
-		</div></div></div>
-		<?php endif; ?>
+			<div id="content" class="<?php echo ($this->countModules('sidebar'))? '':'wide' ?>">
+				<?php if ($this->countModules('sidebar')): ?>
+					<div id="sidebar">
+						<jdoc:include type="modules" name="sidebar" style="xhtml" />
+					</div>
+				<?php endif; ?>
+			
+				<div id="component" class="<?php echo ($this->countModules('sidebar'))? '':'wide' ?>"><div>
+					<jdoc:include type="component" />
+				</div></div> <!-- /content -->
+				
+				<div class="clear"></div>
+			</div>
+		<?php endif; ?>	
 		
-		<div id="bottom"><div>
-			<jdoc:include type="modules" name="bottom" style="xhtml" />
-			<div class="clear"></div>
-		</div></div>
+		<?php if ($this->countModules('bottom')): ?>
+			<div id="bottom"><div>
+				<jdoc:include type="modules" name="bottom" style="xhtml" />
+				<div class="clear"></div>
+			</div></div>
+		<?php endif; ?>
 		<div class="clear"></div>
 	</div></div></div>
 	
