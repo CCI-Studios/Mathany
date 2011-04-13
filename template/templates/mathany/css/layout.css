@@ -29,31 +29,36 @@ body.home #masthead > div { padding: 20px 0; text-align: center; }
 
 #body > div > div {	
 	margin: 20px auto; /* fixme vertical height */
-	width: 944px;
+	width: 944px; 
 }
+
+#body > div a { text-decoration: none; color: black;}
+#body > div a:hover { color: #71a143;}
 
 #content { background: url(../images/sidebarseparator.png) 260px repeat-y; }
 #content.wide { background: none; }
 
 #sidebar {
 	float: left;
-	margin: 24px 16px;
-	padding: 0 20px 0 0;
-	width: 260px;
+	padding: 0 40px 0 0;
+	width: 240px;
+
 }
 
-#component {
-	float: left;
-	width: 632px;
-}
+#component { float: left; width: 632px; }
+
 #component.wide { width: 100%; }
 
 #bottom { font-size: 14px; margin: 32px 0; }
 
 #bottom > div { background: url(../images/bottom_bg.png) center repeat-y; line-height: 1.5em; }
 
+#bottom > div > div a { text-decoration: none; color: black;}
+
+#bottom > div > div a:hover { color: #71a143;}
+
 #footer { background: url(../images/footerbg.png) repeat-x;	margin: 0 auto; padding: 10px 0 75px; }
 
 #footer > div { font-size: 9px; color: white;}
 #footer a { color: white; text-decoration: none;}
-#footer a:hover { color: black; } /* fixme */
+#footer a:hover { color: #71a143; } /* fixme */

@@ -1,0 +1,6 @@
+div.portrait {
+	float: left;
+	font-size: 10px;
+	margin-right: 40px; /* fixme */
+	margin-bottom: 30px; /* fixme */
+}
