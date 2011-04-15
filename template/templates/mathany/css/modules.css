@@ -5,6 +5,7 @@
 	position: absolute;
 	right: 0;
 	top: -4px;
+	z-index: 5;
 }
 .moduletable_hmenu ul {
 	font-size: 14px;
