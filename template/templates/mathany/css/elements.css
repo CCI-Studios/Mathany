@@ -48,8 +48,16 @@ h1 small { font-size: 18px; }
 
 h2 { text-transform: capitalize; }
 
-h3 { color: #71a143; font-size: 17px; text-indent: 40px; }
+h3 { color: #71a143; font-size: 17px; padding-left: 40px; }
 
 h4 { color: #71a143; font-size: 17px; padding: 10px 0; text-transform: capitalize; }
 
 h4 img { color: #71a143; font-size: 17px; padding: 24px 0 15px 20px; }
+
+hr {
+	background: #aac78e;
+	border: none;
+	height: 1px;
+	margin: 1em 0;
+	width: 100%;
+}

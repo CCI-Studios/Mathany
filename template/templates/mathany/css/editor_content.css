@@ -4,3 +4,9 @@ div.portrait {
 	margin-right: 40px; /* fixme */
 	margin-bottom: 30px; /* fixme */
 }
+
+.checkbox {
+	background: url(../images/circlecheckmark.png) no-repeat;
+	line-height: 26px;
+	padding: 0.3em 0 0.7em 3em; /* fixme */
+}
