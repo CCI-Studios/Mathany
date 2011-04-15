@@ -21,6 +21,8 @@ font-weight: bold;
 font-style: italic;
 }
 
+em { font-style: italic; }
+
 html, body { background: #558527; }
 
 a { }
