@@ -38,8 +38,9 @@ if ($menu)
 				<div id="component" class="<?php echo ($this->countModules('sidebar'))? '':'wide' ?>"><div>
 					<jdoc:include type="component" />
 				</div></div> <!-- /content -->
-			</div>
+				
 				<div class="clear"></div>
+			</div>
 		<?php endif; ?>	
 		
 		<?php if ($this->countModules('bottom')): ?>
