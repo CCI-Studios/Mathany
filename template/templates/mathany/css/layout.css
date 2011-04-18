@@ -9,11 +9,16 @@
 	position: relative;
 	margin: 0 auto;
 	width: 944px;
+	z-index: 3;
 }
 
 #header { color: white; }
 
-#masthead { background: url(../images/masthead_bg.png) repeat-x; color: white; }
+#masthead { 
+	background: url(../images/masthead_bg.png) repeat-x; color: white;
+	position: relative;
+	z-index: 2;
+}
 body.home #masthead { background: url(../images/masthead_bg_home.png) repeat-x; }
 
 #masthead > div { padding: 25px 0 1px; }

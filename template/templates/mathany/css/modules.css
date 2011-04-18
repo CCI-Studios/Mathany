@@ -11,6 +11,7 @@
 
 .moduletable_hmenu > ul {
 	list-style: none;
+	margin: 0;
 }
 
 .moduletable_hmenu > ul > li {
@@ -82,8 +83,9 @@
 	position: absolute;
 	left: 0px;
 	top: 69px;
-	min-width: 120%;
+	width: 200px;
 	z-index: 6;
+	zoom: 1;
 	
 	margin-left: 15px;
 }
@@ -101,17 +103,18 @@
 .moduletable_hmenu .submenu .content .top {
 	background-position: top left;
 	height: 100%;
-	left 0;
-	margin-left: -15px;
+	left: -15px;
 	position: absolute;
 	top: 0;
 	width: 15px;
 }
 .moduletable_hmenu .submenu .bottom {
 	background-position: bottom right;
+	font-size: 1px;
 	height: 15px;
 	position: relative;
 	width: 100%;
+	zoom: 1;
 }
 .moduletable_hmenu .submenu .bottom div {
 	background-position: left bottom;
@@ -122,9 +125,11 @@
 }
 
 
-.moduletable_hmenu .submenu ul {
+.moduletable_hmenu .submenu ul,
+.moduletable_hmenu ul ul {
 	display: none;
 	list-style: none;
+	margin: 0;
 }
 
 .moduletable_hmenu .submenu li {
