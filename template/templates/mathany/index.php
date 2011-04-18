@@ -14,6 +14,7 @@ if ($menu)
 	<jdoc:include type="head" />
 	
 	<link rel="stylesheet" href="/templates/mathany/css/template.css" />
+	<link rel="shortcut icon" href="/templates/mathany/images/favicon.ico" />
 	<script src="/templates/mathany/js/dropmenu.js"></script>
 </head>
 
