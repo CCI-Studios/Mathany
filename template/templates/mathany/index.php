@@ -13,8 +13,8 @@ if ($menu)
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<jdoc:include type="head" />
 	
-	<link rel="stylesheet" href="/templates/mathany/css/template.css" />
 	<link rel="shortcut icon" href="/templates/mathany/images/favicon.ico" />
+	<link rel="stylesheet" href="/templates/mathany/css/template.css" />	
 	<script src="/templates/mathany/js/dropmenu.js"></script>
 </head>
 
