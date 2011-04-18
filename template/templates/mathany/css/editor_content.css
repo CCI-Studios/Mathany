@@ -1,12 +1,12 @@
 div.portrait {
 	float: left;
 	font-size: 10px;
-	margin-right: 40px; /* fixme */
-	margin-bottom: 10px; /* fixme */
+	margin-right: 40px; 
+	margin-bottom: 10px; 
 }
 
 .checkbox {
 	background: url(../images/circlecheckmark.png) no-repeat;
 	line-height: 26px;
-	padding: 0.3em 0 0.7em 3em; /* fixme */
+	padding: 0.3em 0 0.7em 3em;
 }

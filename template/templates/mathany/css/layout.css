@@ -33,7 +33,7 @@ body.home #masthead > div { padding: 20px 0; text-align: center; }
 }
 
 #body > div > div {	
-	margin: 20px auto; /* fixme vertical height */
+	margin: 20px auto;
 	width: 944px; 
 }
 
@@ -65,4 +65,4 @@ body.home #masthead > div { padding: 20px 0; text-align: center; }
 
 #footer > div { font-size: 9px; color: white;}
 #footer a { color: white; text-decoration: none;}
-#footer a:hover { color: #71a143; } /* fixme */
+#footer a:hover { color: #71a143; }
