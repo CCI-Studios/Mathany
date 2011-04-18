@@ -13,10 +13,10 @@
 			if (ul !== null) {
 				submenus.push(ul)
 				
-				submenu = new Element('div', { class: 'submenu' });
-				content = new Element('div', { class: 'content' });
-				top = new Element('div', { class: 'top' });
-				bottom = new Element('div', { class: 'bottom' });
+				submenu = new Element('div', { 'class': 'submenu' });
+				content = new Element('div', { 'class': 'content' });
+				top = new Element('div', { 'class': 'top' });
+				bottom = new Element('div', { 'class': 'bottom' });
 
 				submenu.adopt(content);
 				content.adopt(top);
