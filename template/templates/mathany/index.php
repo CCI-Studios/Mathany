@@ -14,7 +14,7 @@ if ($menu)
 	<link rel="stylesheet" href="/templates/mathany/css/template.css" />	
 	<script src="/templates/mathany/js/dropmenu.js" type="text/javascript"></script>
 </head>
-
+ 
 <body class="<?php echo $menu ?>">
 	<script type="text/javascript">
 
